@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="A simple background color changer with HTML, CSS and JavaScript with random color and selected color"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BackGround Color</title>
+        <link rel="stylesheet" href="CSS/background.css" />
+    </head>
+    <body>
+        <main class="mainPage">
+            <section class="background"></section>
+            <h1>Welcome</h1>
+            <div class="buttons">
+                <button
+                    class="bgChangeRandom"
+                    onclick="actionHandler('click',true)"
+                >
+                    Random Color
+                </button>
+                <label class="bgChangeSelect" for="colorpicker"
+                    >Select a color:
+                    <input
+                        class="colorPicker"
+                        type="color"
+                        id="colorpicker"
+                        value="#0000ff"
+                        title="Select a color"
+                    /><button
+                        class="bgChangeSelectAct"
+                        onclick="actionHandler('click',false)"
+                    >
+                        Change Color
+                    </button></label
+                >
+            </div>
+        </main>
+        <script src="JS/background.js"></script>
+    </body>
+</html>

@@ -1,0 +1,99 @@
+.bgChangeRandom {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.bgChangeRandom:hover {
+    background-color: rgba(255, 255, 255, 0.623);
+    color: black;
+    transition: 0.5s;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.bgChangeSelect {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid white;
+}
+.bgChangeSelectAct:hover {
+    background-color: rgba(255, 255, 255, 0.623);
+    color: black;
+    transition: 0.5s;
+}
+.mainPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.background {
+    background-color: rgb(196, 196, 196);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.bgChangeSelectAct {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin: 1rem;
+}
+
+h1 {
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    background-color: black;
+
+    padding: 1rem;
+}
+
+.colorPicker {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.colorPicker::-webkit-color-swatch {
+    border-radius: 50%;
+    border: none;
+}
